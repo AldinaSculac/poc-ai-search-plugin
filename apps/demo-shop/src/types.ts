@@ -20,6 +20,13 @@ export interface Product {
   description: string;
   /** Image URL or path to a placeholder image. */
   image: string;
+  /** Photographer credit, required by the Unsplash license for hotlinked photos. */
+  imageCredit?: ImageCredit;
+}
+
+export interface ImageCredit {
+  name: string;
+  url: string;
 }
 
 export interface UserProfile {

@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b",
+    "images:fetch": "node --env-file=.env.local scripts/fetch-images.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",

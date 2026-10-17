@@ -1,0 +1,962 @@
+[
+  {
+    "id": "p001",
+    "name": "Classic White Tee",
+    "category": "tops",
+    "gender": "women",
+    "style": "casual",
+    "price": 19.99,
+    "colors": ["white", "black", "grey"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Soft cotton crew-neck t-shirt with a relaxed fit. An everyday basic that pairs with jeans or skirts.",
+    "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjB3aGl0ZSUyMENsYXNzaWMlMjBXaGl0ZSUyMFRlZXxlbnwwfDF8fHwxNzkyMjI1MjYyfDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Haryo Setyadi",
+      "url": "https://unsplash.com/@uyk?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p002",
+    "name": "Silk Blouse",
+    "category": "tops",
+    "gender": "women",
+    "style": "formal",
+    "price": 79,
+    "colors": ["white", "beige", "navy"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Lightweight silk blouse with a hidden button placket. Elegant for the office, dinners and weddings.",
+    "image": "https://images.unsplash.com/photo-1674384613407-43e021208955?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjB3aGl0ZSUyMFNpbGslMjBCbG91c2V8ZW58MHwxfHx8MTc5MjIyNTI2Mnww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Vishwanath Negi",
+      "url": "https://unsplash.com/@uk11photography?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p003",
+    "name": "Running Tank Top",
+    "category": "tops",
+    "gender": "women",
+    "style": "sporty",
+    "price": 24.99,
+    "colors": ["black", "pink", "blue"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Breathable, quick-dry tank with a racerback cut for running and gym sessions.",
+    "image": "https://images.unsplash.com/photo-1784924176793-7fe9f8cd96e7?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBibGFjayUyMFJ1bm5pbmclMjBUYW5rJTIwVG9wfGVufDB8MXx8fDE3OTIyMjUyNjN8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Margo Evardson",
+      "url": "https://unsplash.com/@stadinstudio?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p004",
+    "name": "Oversized Graphic Hoodie",
+    "category": "tops",
+    "gender": "women",
+    "style": "streetwear",
+    "price": 59,
+    "colors": ["black", "grey", "green"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Heavyweight cotton hoodie with a bold back print and dropped shoulders for an oversized look.",
+    "image": "https://images.unsplash.com/photo-1698684420707-33f4433f8bd8?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBibGFjayUyME92ZXJzaXplZCUyMEdyYXBoaWMlMjBIb29kaWV8ZW58MHwxfHx8MTc5MjIyNTI2M3ww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Josef Holz",
+      "url": "https://unsplash.com/@josefholz?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p005",
+    "name": "Striped Breton Top",
+    "category": "tops",
+    "gender": "women",
+    "style": "casual",
+    "price": 34.5,
+    "colors": ["white", "navy", "red"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Long-sleeve striped cotton top with a boat neck. A timeless weekend classic.",
+    "image": "https://images.unsplash.com/photo-1630406644353-d899a48236bd?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjB3aGl0ZSUyMFN0cmlwZWQlMjBCcmV0b24lMjBUb3B8ZW58MHwxfHx8MTc5MjIyNTI2M3ww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "K. Mitch Hodge",
+      "url": "https://unsplash.com/@kmitchhodge?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p006",
+    "name": "Merino Knit Sweater",
+    "category": "tops",
+    "gender": "women",
+    "style": "formal",
+    "price": 89,
+    "colors": ["beige", "grey", "black"],
+    "sizes": ["S", "M", "L"],
+    "description": "Fine merino wool sweater with a slim fit. Warm but light, ideal for layering in autumn and winter.",
+    "image": "https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBiZWlnZSUyME1lcmlubyUyMEtuaXQlMjBTd2VhdGVyfGVufDB8MXx8fDE3OTIyMjUyNjR8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Valna Studio",
+      "url": "https://unsplash.com/@valnastudio?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p007",
+    "name": "Essential Crew Tee",
+    "category": "tops",
+    "gender": "men",
+    "style": "casual",
+    "price": 17.99,
+    "colors": ["white", "black", "navy", "grey"],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "Midweight cotton t-shirt with a regular fit. The go-to basic for everyday wear.",
+    "image": "https://images.unsplash.com/photo-1706815557745-4def5acd81f5?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwRXNzZW50aWFsJTIwQ3JldyUyMFRlZXxlbnwwfDF8fHwxNzkyMjI4MjI2fDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Bismark Owusu-Yeboah",
+      "url": "https://unsplash.com/@admanbismc?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p008",
+    "name": "Oxford Button-Down Shirt",
+    "category": "tops",
+    "gender": "men",
+    "style": "formal",
+    "price": 54,
+    "colors": ["white", "blue"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Crisp cotton Oxford shirt with a button-down collar. Works with a suit or chinos.",
+    "image": "https://images.unsplash.com/photo-1621072156002-e2fccdc0b176?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwd2hpdGUlMjBPeGZvcmQlMjBCdXR0b24tRG93biUyMFNoaXJ0fGVufDB8MXx8fDE3OTIyMjUyNjV8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Mahdi Bafande",
+      "url": "https://unsplash.com/@mahdibafande?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p009",
+    "name": "Dry-Fit Training Tee",
+    "category": "tops",
+    "gender": "men",
+    "style": "sporty",
+    "price": 27.99,
+    "colors": ["black", "blue", "red"],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "Moisture-wicking training t-shirt with mesh panels for gym, running and team sports.",
+    "image": "https://images.unsplash.com/photo-1696563996353-214a3690bb11?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwVHJhaW5pbmclMjBUZWV8ZW58MHwxfHx8MTc5MjIyODIyN3ww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "George Dagerotip",
+      "url": "https://unsplash.com/@dagerotip?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p010",
+    "name": "Linen Summer Shirt",
+    "category": "tops",
+    "gender": "men",
+    "style": "casual",
+    "price": 49,
+    "colors": ["white", "beige", "blue"],
+    "sizes": ["M", "L", "XL"],
+    "description": "Breathable linen shirt with a relaxed fit. Perfect for hot days, holidays and beach weddings.",
+    "image": "https://images.unsplash.com/photo-1713881587420-113c1c43e28a?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwd2hpdGUlMjBMaW5lbiUyMFN1bW1lciUyMFNoaXJ0fGVufDB8MXx8fDE3OTIyMjUyNjZ8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "tian dayong",
+      "url": "https://unsplash.com/@tonnnyj?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p011",
+    "name": "Boxy Logo Sweatshirt",
+    "category": "tops",
+    "gender": "men",
+    "style": "streetwear",
+    "price": 64,
+    "colors": ["black", "grey", "green"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Boxy-fit fleece sweatshirt with a tonal chest logo and ribbed cuffs.",
+    "image": "https://images.unsplash.com/photo-1618354691551-44de113f0164?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwYmxhY2slMjBCb3h5JTIwTG9nbyUyMFN3ZWF0c2hpcnR8ZW58MHwxfHx8MTc5MjIyNTI2Nnww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Ryan Hoffman",
+      "url": "https://unsplash.com/@ryanhoffman007?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p012",
+    "name": "Cashmere V-Neck Sweater",
+    "category": "tops",
+    "gender": "men",
+    "style": "formal",
+    "price": 129,
+    "colors": ["navy", "grey", "brown"],
+    "sizes": ["M", "L", "XL", "XXL"],
+    "description": "Pure cashmere V-neck sweater. Soft, warm and smart enough for business casual.",
+    "image": "https://images.unsplash.com/photo-1635205383144-402b892efa23?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwbmF2eSUyMENhc2htZXJlJTIwVi1OZWNrJTIwU3dlYXRlcnxlbnwwfDF8fHwxNzkyMjI1MjY3fDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Mohamad Khosravi",
+      "url": "https://unsplash.com/@mohamadkhosravi?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p013",
+    "name": "Basic Zip Hoodie",
+    "category": "tops",
+    "gender": "unisex",
+    "style": "casual",
+    "price": 44.99,
+    "colors": ["grey", "black", "navy"],
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "description": "Cotton-blend zip hoodie with a kangaroo pocket. A cozy layer for cool evenings.",
+    "image": "https://images.unsplash.com/photo-1578470507807-3fc541d5f544?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8Z3JleSUyMEJhc2ljJTIwWmlwJTIwSG9vZGllfGVufDB8MXx8fDE3OTIyMjUyNjd8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Kartabya Aryal",
+      "url": "https://unsplash.com/@kartabya?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p014",
+    "name": "Tie-Dye Tee",
+    "category": "tops",
+    "gender": "unisex",
+    "style": "streetwear",
+    "price": 29,
+    "colors": ["pink", "blue", "yellow"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Hand-dyed oversized t-shirt with a vintage wash. Every piece is unique.",
+    "image": "https://images.unsplash.com/photo-1626095855649-197074494320?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8cGluayUyMFRpZS1EeWUlMjBUZWV8ZW58MHwxfHx8MTc5MjIyNTI2OHww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Michael Shannon",
+      "url": "https://unsplash.com/@mgshannon?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p015",
+    "name": "Thermal Base Layer Top",
+    "category": "tops",
+    "gender": "unisex",
+    "style": "sporty",
+    "price": 39,
+    "colors": ["black", "grey"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Warm thermal long-sleeve top for skiing, hiking and winter running.",
+    "image": "https://images.unsplash.com/photo-1716331037271-d3563ee70724?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8YmxhY2slMjBUaGVybWFsJTIwQmFzZSUyMExheWVyJTIwVG9wfGVufDB8MXx8fDE3OTIyMjUyNjh8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Raamin ka",
+      "url": "https://unsplash.com/@raaminka?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p016",
+    "name": "Rugby Polo Shirt",
+    "category": "tops",
+    "gender": "unisex",
+    "style": "casual",
+    "price": 52,
+    "colors": ["green", "navy", "red"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Heavy cotton rugby shirt with a contrast collar. A sporty heritage look for everyday.",
+    "image": "https://images.unsplash.com/photo-1715313676043-0b1160af0d6a?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8Z3JlZW4lMjBSdWdieSUyMFBvbG8lMjBTaGlydHxlbnwwfDF8fHwxNzkyMjI1MjY5fDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Vitaly Mazur",
+      "url": "https://unsplash.com/@vitalymazur?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p017",
+    "name": "High-Rise Skinny Jeans",
+    "category": "bottoms",
+    "gender": "women",
+    "style": "casual",
+    "price": 59.99,
+    "colors": ["blue", "black"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Stretch denim jeans with a high waist and skinny leg. A flattering everyday fit.",
+    "image": "https://images.unsplash.com/photo-1475178626620-a4d074967452?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBibHVlJTIwSGlnaC1SaXNlJTIwU2tpbm55JTIwSmVhbnN8ZW58MHwxfHx8MTc5MjIyNTI2OXww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Tamara Bellis",
+      "url": "https://unsplash.com/@tamarabellis?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p018",
+    "name": "Wide-Leg Tailored Trousers",
+    "category": "bottoms",
+    "gender": "women",
+    "style": "formal",
+    "price": 74,
+    "colors": ["black", "beige", "navy"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Pleated wide-leg trousers in a fluid fabric. Polished for the office and evening events.",
+    "image": "https://images.unsplash.com/photo-1654512697735-d7ff21350443?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBibGFjayUyMFdpZGUtTGVnJTIwVGFpbG9yZWQlMjBUcm91c2Vyc3xlbnwwfDF8fHwxNzkyMjI1MjY5fDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Ivan Kazlouskij",
+      "url": "https://unsplash.com/@ivankazlouskij?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p019",
+    "name": "Seamless Leggings",
+    "category": "bottoms",
+    "gender": "women",
+    "style": "sporty",
+    "price": 34.99,
+    "colors": ["black", "grey", "pink"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "High-waisted seamless leggings with squat-proof fabric for yoga and gym.",
+    "image": "https://images.unsplash.com/photo-1625843831920-3b7682d35c25?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBibGFjayUyMFNlYW1sZXNzJTIwTGVnZ2luZ3N8ZW58MHwxfHx8MTc5MjIyNTI3MHww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "INHB WORLDWIDE",
+      "url": "https://unsplash.com/@inhb2014?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p020",
+    "name": "Pleated Midi Skirt",
+    "category": "bottoms",
+    "gender": "women",
+    "style": "formal",
+    "price": 64,
+    "colors": ["black", "green", "beige"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Flowing pleated midi skirt with an elastic waistband. Easy to dress up or down.",
+    "image": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBibGFjayUyMFBsZWF0ZWQlMjBNaWRpJTIwU2tpcnR8ZW58MHwxfHx8MTc5MjIyNTI3MHww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Vicky Cheng",
+      "url": "https://unsplash.com/@vickyworld?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p021",
+    "name": "Cargo Parachute Pants",
+    "category": "bottoms",
+    "gender": "women",
+    "style": "streetwear",
+    "price": 69,
+    "colors": ["beige", "black", "green"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Lightweight nylon parachute pants with cargo pockets and toggle hems.",
+    "image": "https://images.unsplash.com/photo-1718431672925-5ed7773cce80?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBiZWlnZSUyMENhcmdvJTIwUGFyYWNodXRlJTIwUGFudHN8ZW58MHwxfHx8MTc5MjIyNTI3MXww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Patrik Velich",
+      "url": "https://unsplash.com/@patrikvelich?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p022",
+    "name": "Slim Fit Chinos",
+    "category": "bottoms",
+    "gender": "men",
+    "style": "casual",
+    "price": 49.99,
+    "colors": ["beige", "navy", "green", "black"],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "Stretch cotton chinos with a slim fit. A smart-casual staple for work and weekends.",
+    "image": "https://images.unsplash.com/photo-1660996702358-22f0377a3f36?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwYmVpZ2UlMjBTbGltJTIwRml0JTIwQ2hpbm9zfGVufDB8MXx8fDE3OTIyMjUyNzJ8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "roomshot",
+      "url": "https://unsplash.com/@roomshots?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p023",
+    "name": "Wool Suit Trousers",
+    "category": "bottoms",
+    "gender": "men",
+    "style": "formal",
+    "price": 99,
+    "colors": ["navy", "grey", "black"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Tailored trousers in fine wool, matching our suit blazer. For business meetings and weddings.",
+    "image": "https://images.unsplash.com/photo-1636452147682-e624f9fc70c4?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwbmF2eSUyMFdvb2wlMjBTdWl0JTIwVHJvdXNlcnN8ZW58MHwxfHx8MTc5MjIyNTI3Mnww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Golf Modz",
+      "url": "https://unsplash.com/@paulpress2014?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p024",
+    "name": "Running Shorts",
+    "category": "bottoms",
+    "gender": "men",
+    "style": "sporty",
+    "price": 29.99,
+    "colors": ["black", "blue", "grey"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Lightweight running shorts with a built-in liner and zip pocket. Made for hot summer runs.",
+    "image": "https://images.unsplash.com/photo-1785926262431-ad6a88990c2e?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwYmxhY2slMjBSdW5uaW5nJTIwU2hvcnRzfGVufDB8MXx8fDE3OTIyMjUyNzN8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Alekon pictures",
+      "url": "https://unsplash.com/@alekonpictures?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p025",
+    "name": "Relaxed Straight Jeans",
+    "category": "bottoms",
+    "gender": "men",
+    "style": "casual",
+    "price": 64,
+    "colors": ["blue", "black", "grey"],
+    "sizes": ["M", "L", "XL", "XXL"],
+    "description": "Classic five-pocket jeans with a relaxed straight leg in rigid denim.",
+    "image": "https://images.unsplash.com/photo-1727777840115-e173c91444e4?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwYmx1ZSUyMFJlbGF4ZWQlMjBTdHJhaWdodCUyMEplYW5zfGVufDB8MXx8fDE3OTIyMjUyNzN8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Project:KENO",
+      "url": "https://unsplash.com/@projectkeno?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p026",
+    "name": "Baggy Cargo Jeans",
+    "category": "bottoms",
+    "gender": "men",
+    "style": "streetwear",
+    "price": 74,
+    "colors": ["black", "blue"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Loose-fit cargo jeans with side pockets and a washed finish.",
+    "image": "https://images.unsplash.com/photo-1742980511651-b845fa826f33?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwYmxhY2slMjBCYWdneSUyMENhcmdvJTIwSmVhbnN8ZW58MHwxfHx8MTc5MjIyNTI3NHww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Lolita Timoshek",
+      "url": "https://unsplash.com/@yanlo?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p027",
+    "name": "Jogger Sweatpants",
+    "category": "bottoms",
+    "gender": "unisex",
+    "style": "sporty",
+    "price": 39.99,
+    "colors": ["grey", "black", "navy"],
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "description": "Soft fleece joggers with cuffed ankles. For training, travel or lounging at home.",
+    "image": "https://images.unsplash.com/photo-1590330297626-d7aff25a0431?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8Sm9nZ2VyJTIwU3dlYXRwYW50c3xlbnwwfDF8fHwxNzkyMjI4MjI3fDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Mike Von",
+      "url": "https://unsplash.com/@thevoncomplex?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p028",
+    "name": "Hiking Convertible Pants",
+    "category": "bottoms",
+    "gender": "unisex",
+    "style": "sporty",
+    "price": 69,
+    "colors": ["beige", "green", "grey"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Water-repellent hiking pants with zip-off legs that convert to shorts.",
+    "image": "https://images.unsplash.com/photo-1629185752193-0d25bb978c04?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8YmVpZ2UlMjBIaWtpbmclMjBDb252ZXJ0aWJsZSUyMFBhbnRzfGVufDB8MXx8fDE3OTIyMjUyNzR8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "JUSTIN BUISSON",
+      "url": "https://unsplash.com/@justinbuisson?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p029",
+    "name": "Little Black Dress",
+    "category": "dresses",
+    "gender": "women",
+    "style": "formal",
+    "price": 89,
+    "colors": ["black"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Sleek knee-length dress with a fitted waist. A cocktail party and evening classic.",
+    "image": "https://images.unsplash.com/photo-1656284518334-710b60cd63a0?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBibGFjayUyMExpdHRsZSUyMEJsYWNrJTIwRHJlc3N8ZW58MHwxfHx8MTc5MjIyNTI3NXww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Vladimir Fedotov",
+      "url": "https://unsplash.com/@fedotov_vs?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p030",
+    "name": "Floral Summer Dress",
+    "category": "dresses",
+    "gender": "women",
+    "style": "casual",
+    "price": 49,
+    "colors": ["yellow", "blue", "pink"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Light cotton dress with a floral print and adjustable straps. Made for warm summer days.",
+    "image": "https://images.unsplash.com/photo-1786365425668-1053a200a409?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjB5ZWxsb3clMjBGbG9yYWwlMjBTdW1tZXIlMjBEcmVzc3xlbnwwfDF8fHwxNzkyMjI1Mjc1fDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Freddie Addery",
+      "url": "https://unsplash.com/@freddieaddery?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p031",
+    "name": "Satin Slip Dress",
+    "category": "dresses",
+    "gender": "women",
+    "style": "formal",
+    "price": 119,
+    "colors": ["green", "beige", "red"],
+    "sizes": ["XS", "S", "M"],
+    "description": "Bias-cut satin midi dress with a cowl neck. Ideal for weddings and evening events.",
+    "image": "https://images.unsplash.com/photo-1780301662392-6fea210dcd87?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBncmVlbiUyMFNhdGluJTIwU2xpcCUyMERyZXNzfGVufDB8MXx8fDE3OTIyMjUyNzZ8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Margo Evardson",
+      "url": "https://unsplash.com/@stadinstudio?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p032",
+    "name": "T-Shirt Dress",
+    "category": "dresses",
+    "gender": "women",
+    "style": "casual",
+    "price": 32.99,
+    "colors": ["grey", "black", "white"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Relaxed jersey t-shirt dress. Throw it on with sneakers for an easy everyday outfit.",
+    "image": "https://images.unsplash.com/photo-1776901306666-bf98829e8b65?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBncmV5JTIwVC1TaGlydCUyMERyZXNzfGVufDB8MXx8fDE3OTIyMjUyNzZ8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Yanhao Fang",
+      "url": "https://unsplash.com/@alamanga?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p033",
+    "name": "Tennis Dress",
+    "category": "dresses",
+    "gender": "women",
+    "style": "sporty",
+    "price": 59,
+    "colors": ["white", "pink"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Stretchy tennis dress with built-in shorts and a pleated skirt.",
+    "image": "https://images.unsplash.com/photo-1583346292527-522309cc9be3?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjB3aGl0ZSUyMFRlbm5pcyUyMERyZXNzfGVufDB8MXx8fDE3OTIyMjUyNzd8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Rome Wilkerson",
+      "url": "https://unsplash.com/@romewilkersonphotography?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p034",
+    "name": "Oversized Shirt Dress",
+    "category": "dresses",
+    "gender": "women",
+    "style": "streetwear",
+    "price": 69,
+    "colors": ["blue", "white"],
+    "sizes": ["S", "M", "L"],
+    "description": "Oversized denim-look shirt dress with a belt. Wear it open as a layer or closed as a dress.",
+    "image": "https://images.unsplash.com/photo-1642776669775-94f657988a43?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBibHVlJTIwT3ZlcnNpemVkJTIwU2hpcnQlMjBEcmVzc3xlbnwwfDF8fHwxNzkyMjI1Mjc3fDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Tânia Mousinho",
+      "url": "https://unsplash.com/@shotsbytania?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p035",
+    "name": "Wool Blend Coat",
+    "category": "outerwear",
+    "gender": "women",
+    "style": "formal",
+    "price": 179,
+    "colors": ["beige", "black", "grey"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Long tailored coat in a warm wool blend. An elegant winter essential.",
+    "image": "https://images.unsplash.com/photo-1618333453296-9e35280fd6b1?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBiZWlnZSUyMFdvb2wlMjBCbGVuZCUyMENvYXR8ZW58MHwxfHx8MTc5MjIyNTI3OHww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "The AW Creative Digital Marketing",
+      "url": "https://unsplash.com/@theawguide?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p036",
+    "name": "Cropped Denim Jacket",
+    "category": "outerwear",
+    "gender": "women",
+    "style": "casual",
+    "price": 69,
+    "colors": ["blue", "white"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Cropped denim jacket with a slightly boxy fit. A spring and autumn favourite.",
+    "image": "https://images.unsplash.com/photo-1711594106011-b4db7e26d213?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBibHVlJTIwQ3JvcHBlZCUyMERlbmltJTIwSmFja2V0fGVufDB8MXx8fDE3OTIyMjUyNzh8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Gilda Gonzàlez",
+      "url": "https://unsplash.com/@storiesofg?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p037",
+    "name": "Lightweight Running Jacket",
+    "category": "outerwear",
+    "gender": "women",
+    "style": "sporty",
+    "price": 79,
+    "colors": ["pink", "black", "yellow"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Wind and rain resistant running jacket with reflective details. Packs into its own pocket.",
+    "image": "https://images.unsplash.com/photo-1603302236505-f94854042ab0?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBwaW5rJTIwTGlnaHR3ZWlnaHQlMjBSdW5uaW5nJTIwSmFja2V0fGVufDB8MXx8fDE3OTIyMjUyNzl8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Isac Ciobota",
+      "url": "https://unsplash.com/@isacciobota?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p038",
+    "name": "Cropped Puffer Jacket",
+    "category": "outerwear",
+    "gender": "women",
+    "style": "streetwear",
+    "price": 139,
+    "colors": ["black", "green", "beige"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Cropped puffer jacket with recycled insulation. Very warm for cold winter days.",
+    "image": "https://images.unsplash.com/photo-1676958788582-369395824111?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBibGFjayUyMENyb3BwZWQlMjBQdWZmZXIlMjBKYWNrZXR8ZW58MHwxfHx8MTc5MjIyNTI3OXww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Farshad Sheikhzadeh",
+      "url": "https://unsplash.com/@farshadsheikhzadeh?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p039",
+    "name": "Suit Blazer",
+    "category": "outerwear",
+    "gender": "men",
+    "style": "formal",
+    "price": 159,
+    "colors": ["navy", "grey", "black"],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "Single-breasted wool blazer with a modern slim cut. Pairs with our wool suit trousers.",
+    "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwbmF2eSUyMFN1aXQlMjBCbGF6ZXJ8ZW58MHwxfHx8MTc5MjIyNTI4MHww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Mohamad Khosravi",
+      "url": "https://unsplash.com/@mohamadkhosravi?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p040",
+    "name": "Field Jacket",
+    "category": "outerwear",
+    "gender": "men",
+    "style": "casual",
+    "price": 119,
+    "colors": ["green", "beige", "navy"],
+    "sizes": ["M", "L", "XL", "XXL"],
+    "description": "Cotton field jacket with four pockets and a stand collar. Great for mild autumn days.",
+    "image": "https://images.unsplash.com/photo-1778193985027-18e9ca0ede76?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwZ3JlZW4lMjBGaWVsZCUyMEphY2tldHxlbnwwfDF8fHwxNzkyMjI1MjgwfDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Chermiti Mohamed",
+      "url": "https://unsplash.com/@chermitovee?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p041",
+    "name": "Insulated Parka",
+    "category": "outerwear",
+    "gender": "men",
+    "style": "casual",
+    "price": 229,
+    "colors": ["black", "navy", "green"],
+    "sizes": ["M", "L", "XL", "XXL"],
+    "description": "Waterproof parka with a down-filled lining and a fur-free hood for freezing temperatures.",
+    "image": "https://images.unsplash.com/photo-1725949889141-986a864acb6c?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwYmxhY2slMjBJbnN1bGF0ZWQlMjBQYXJrYXxlbnwwfDF8fHwxNzkyMjI1MjgxfDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Luigi Ritchie",
+      "url": "https://unsplash.com/@luigir?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p042",
+    "name": "Softshell Training Jacket",
+    "category": "outerwear",
+    "gender": "men",
+    "style": "sporty",
+    "price": 89,
+    "colors": ["black", "blue", "red"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Stretchy softshell jacket for outdoor training. Wind-resistant with a fleece lining.",
+    "image": "https://images.unsplash.com/photo-1758910065882-db19d75510ce?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwYmxhY2slMjBTb2Z0c2hlbGwlMjBUcmFpbmluZyUyMEphY2tldHxlbnwwfDF8fHwxNzkyMjI1MjgxfDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Jonathan Borba",
+      "url": "https://unsplash.com/@jonathanborba?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p043",
+    "name": "Varsity Jacket",
+    "category": "outerwear",
+    "gender": "unisex",
+    "style": "streetwear",
+    "price": 129,
+    "colors": ["black", "red", "navy"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Wool varsity jacket with leather-look sleeves and chenille patches.",
+    "image": "https://images.unsplash.com/photo-1790646237766-bb83d3d45bc7?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8YmxhY2slMjBWYXJzaXR5JTIwSmFja2V0fGVufDB8MXx8fDE3OTIyMjUyODJ8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Tony Saiko",
+      "url": "https://unsplash.com/@tony_saiko24?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p044",
+    "name": "Packable Rain Jacket",
+    "category": "outerwear",
+    "gender": "unisex",
+    "style": "casual",
+    "price": 74.99,
+    "colors": ["yellow", "navy", "green", "black"],
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "description": "Lightweight waterproof rain jacket with a hood. Folds into a small pouch for travel.",
+    "image": "https://images.unsplash.com/photo-1622630893218-52686fbdde23?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8eWVsbG93JTIwUGFja2FibGUlMjBSYWluJTIwSmFja2V0fGVufDB8MXx8fDE3OTIyMjUyODJ8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Yana Hurska",
+      "url": "https://unsplash.com/@yana_hurska?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p045",
+    "name": "White Leather Sneakers",
+    "category": "shoes",
+    "gender": "women",
+    "style": "casual",
+    "price": 89,
+    "colors": ["white"],
+    "sizes": ["36", "37", "38", "39", "40", "41"],
+    "description": "Minimal leather sneakers with a cushioned sole. They go with almost everything.",
+    "image": "https://images.unsplash.com/photo-1612905468542-585ca599afbc?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjB3aGl0ZSUyMFdoaXRlJTIwTGVhdGhlciUyMFNuZWFrZXJzfGVufDB8MXx8fDE3OTIyMjUyODN8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Bear Bear",
+      "url": "https://unsplash.com/@bearwashere?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p046",
+    "name": "Pointed Toe Pumps",
+    "category": "shoes",
+    "gender": "women",
+    "style": "formal",
+    "price": 99,
+    "colors": ["black", "beige", "red"],
+    "sizes": ["36", "37", "38", "39", "40"],
+    "description": "Classic 8 cm heel pumps in smooth leather. For the office, parties and weddings.",
+    "image": "https://images.unsplash.com/photo-1554062614-6da4fa67725a?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBibGFjayUyMFBvaW50ZWQlMjBUb2UlMjBQdW1wc3xlbnwwfDF8fHwxNzkyMjI1MjgzfDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Apostolos Vamvouras",
+      "url": "https://unsplash.com/@apostolosv?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p047",
+    "name": "Trail Running Shoes",
+    "category": "shoes",
+    "gender": "women",
+    "style": "sporty",
+    "price": 129,
+    "colors": ["pink", "grey", "blue"],
+    "sizes": ["36", "37", "38", "39", "40", "41"],
+    "description": "Grippy trail running shoes with a rock plate and a water-resistant upper.",
+    "image": "https://images.unsplash.com/photo-1659150044666-fc1c99bc03c7?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBwaW5rJTIwVHJhaWwlMjBSdW5uaW5nJTIwU2hvZXN8ZW58MHwxfHx8MTc5MjIyNTI4NHww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Venti Views",
+      "url": "https://unsplash.com/@ventiviews?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p048",
+    "name": "Chunky Platform Sneakers",
+    "category": "shoes",
+    "gender": "women",
+    "style": "streetwear",
+    "price": 109,
+    "colors": ["white", "black"],
+    "sizes": ["36", "37", "38", "39", "40", "41"],
+    "description": "Bold platform sneakers with a chunky sole that adds 5 cm of height.",
+    "image": "https://images.unsplash.com/photo-1652370658121-cd0060db5fa9?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8Mnx8d29tYW4lMjB3aGl0ZSUyMENodW5reSUyMFBsYXRmb3JtJTIwU25lYWtlcnN8ZW58MHwxfHx8MTc5MjIyNTI4NXww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Mahsa Gholami",
+      "url": "https://unsplash.com/@mahsagholami?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p049",
+    "name": "Suede Ankle Boots",
+    "category": "shoes",
+    "gender": "women",
+    "style": "casual",
+    "price": 119,
+    "colors": ["brown", "black"],
+    "sizes": ["36", "37", "38", "39", "40", "41"],
+    "description": "Suede Chelsea ankle boots with elastic sides and a low block heel. Great for autumn.",
+    "image": "https://images.unsplash.com/photo-1634671495693-4036d23f0754?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBicm93biUyMFN1ZWRlJTIwQW5rbGUlMjBCb290c3xlbnwwfDF8fHwxNzkyMjI1Mjg1fDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Kimia Zarifi",
+      "url": "https://unsplash.com/@kimzifi?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p050",
+    "name": "Ballet Flats",
+    "category": "shoes",
+    "gender": "women",
+    "style": "formal",
+    "price": 69,
+    "colors": ["black", "beige", "red"],
+    "sizes": ["36", "37", "38", "39", "40"],
+    "description": "Soft leather ballet flats with a bow detail. Comfortable for all-day wear at the office.",
+    "image": "https://images.unsplash.com/photo-1712512343634-f64161d3daa6?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8d29tYW4lMjBibGFjayUyMEJhbGxldCUyMEZsYXRzfGVufDB8MXx8fDE3OTIyMjUyODV8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Sam Badmaeva",
+      "url": "https://unsplash.com/@sam_badmaeva?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p051",
+    "name": "Leather Derby Shoes",
+    "category": "shoes",
+    "gender": "men",
+    "style": "formal",
+    "price": 139,
+    "colors": ["black", "brown"],
+    "sizes": ["40", "41", "42", "43", "44", "45", "46"],
+    "description": "Polished leather Derby shoes with a Goodyear-welted sole. For suits and weddings.",
+    "image": "https://images.unsplash.com/photo-1760616172899-0681b97a2de3?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwYmxhY2slMjBMZWF0aGVyJTIwRGVyYnklMjBTaG9lc3xlbnwwfDF8fHwxNzkyMjI4MjI4fDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "taha siddiqui",
+      "url": "https://unsplash.com/@xxtahaxx?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p052",
+    "name": "Canvas Low-Top Sneakers",
+    "category": "shoes",
+    "gender": "men",
+    "style": "casual",
+    "price": 54.99,
+    "colors": ["white", "black", "navy"],
+    "sizes": ["40", "41", "42", "43", "44", "45", "46"],
+    "description": "Classic canvas sneakers with a vulcanized rubber sole.",
+    "image": "https://images.unsplash.com/photo-1627361673902-c80df14aecdd?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwd2hpdGUlMjBDYW52YXMlMjBMb3ctVG9wJTIwU25lYWtlcnN8ZW58MHwxfHx8MTc5MjIyODIyOHww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Anh Tuan To",
+      "url": "https://unsplash.com/@tuan1561?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p053",
+    "name": "Road Running Shoes",
+    "category": "shoes",
+    "gender": "men",
+    "style": "sporty",
+    "price": 139,
+    "colors": ["black", "blue", "red"],
+    "sizes": ["40", "41", "42", "43", "44", "45", "46"],
+    "description": "Lightweight, responsive running shoes with a carbon-infused midsole for road racing.",
+    "image": "https://images.unsplash.com/photo-1592394172986-6baf1ec14472?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwYmxhY2slMjBSb2FkJTIwUnVubmluZyUyMFNob2VzfGVufDB8MXx8fDE3OTIyMjgyMjl8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Matteo Raw",
+      "url": "https://unsplash.com/@raw2020?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p054",
+    "name": "Retro Basketball Sneakers",
+    "category": "shoes",
+    "gender": "men",
+    "style": "streetwear",
+    "price": 119,
+    "colors": ["white", "red", "black"],
+    "sizes": ["40", "41", "42", "43", "44", "45", "46"],
+    "description": "High-top basketball sneakers inspired by the 90s with a padded collar.",
+    "image": "https://images.unsplash.com/photo-1605523741177-cd660595c2cf?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwd2hpdGUlMjBSZXRybyUyMEJhc2tldGJhbGwlMjBTbmVha2Vyc3xlbnwwfDF8fHwxNzkyMjI4MjI5fDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Ján Vlačuha",
+      "url": "https://unsplash.com/@flowixxcom?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p055",
+    "name": "Suede Desert Boots",
+    "category": "shoes",
+    "gender": "men",
+    "style": "casual",
+    "price": 99,
+    "colors": ["beige", "brown"],
+    "sizes": ["40", "41", "42", "43", "44", "45"],
+    "description": "Soft suede desert boots with a crepe sole. Smart-casual for autumn.",
+    "image": "https://images.unsplash.com/photo-1732061906878-ba0ce29810ed?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwYmVpZ2UlMjBTdWVkZSUyMERlc2VydCUyMEJvb3RzfGVufDB8MXx8fDE3OTIyMjgyMzB8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Nice M Nshuti",
+      "url": "https://unsplash.com/@nietzsche99?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p056",
+    "name": "Leather Loafers",
+    "category": "shoes",
+    "gender": "men",
+    "style": "formal",
+    "price": 119,
+    "colors": ["brown", "black"],
+    "sizes": ["40", "41", "42", "43", "44", "45"],
+    "description": "Penny loafers in burnished leather. A slip-on style for business casual and summer events.",
+    "image": "https://images.unsplash.com/photo-1777987601447-266e128de448?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8bWFuJTIwYnJvd24lMjBMZWF0aGVyJTIwTG9hZmVyc3xlbnwwfDF8fHwxNzkyMjI4MjMwfDA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Husien Bisky",
+      "url": "https://unsplash.com/@husien_bisky1?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p057",
+    "name": "Waterproof Hiking Boots",
+    "category": "shoes",
+    "gender": "unisex",
+    "style": "sporty",
+    "price": 159,
+    "colors": ["brown", "grey", "green"],
+    "sizes": ["37", "38", "39", "40", "41", "42", "43", "44", "45"],
+    "description": "Waterproof hiking boots with ankle support and a grippy outsole for mountain trails.",
+    "image": "https://images.unsplash.com/photo-1605812860427-4024433a70fd?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8YnJvd24lMjBXYXRlcnByb29mJTIwSGlraW5nJTIwQm9vdHN8ZW58MHwxfHx8MTc5MjIyODIzMXww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Maxim Hopman",
+      "url": "https://unsplash.com/@nampoh?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p058",
+    "name": "Slide Sandals",
+    "category": "shoes",
+    "gender": "unisex",
+    "style": "casual",
+    "price": 29.99,
+    "colors": ["black", "white", "beige"],
+    "sizes": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"],
+    "description": "Cushioned slide sandals for the pool, the beach and after a workout.",
+    "image": "https://images.unsplash.com/photo-1628375385879-1af64230c2e1?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8YmxhY2slMjBTbGlkZSUyMFNhbmRhbHN8ZW58MHwxfHx8MTc5MjIyODIzMXww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "DCL \"650\"",
+      "url": "https://unsplash.com/@dclmister?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p059",
+    "name": "Suede Skate Shoes",
+    "category": "shoes",
+    "gender": "unisex",
+    "style": "streetwear",
+    "price": 74,
+    "colors": ["black", "grey", "navy"],
+    "sizes": ["37", "38", "39", "40", "41", "42", "43", "44", "45"],
+    "description": "Durable suede skate shoes with a padded tongue and a grippy sole.",
+    "image": "https://images.unsplash.com/photo-1641997463679-8c09097d9a10?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8YmxhY2slMjBTdWVkZSUyMFNrYXRlJTIwU2hvZXN8ZW58MHwxfHx8MTc5MjIyODIzMnww&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Axel Bimashanda",
+      "url": "https://unsplash.com/@axelbimashanda?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  },
+  {
+    "id": "p060",
+    "name": "Rubber Rain Boots",
+    "category": "shoes",
+    "gender": "unisex",
+    "style": "casual",
+    "price": 59,
+    "colors": ["yellow", "black", "green"],
+    "sizes": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
+    "description": "Waterproof natural rubber boots for rainy city days and festivals.",
+    "image": "https://images.unsplash.com/photo-1778778908510-f62b5fd8244d?ixid=M3wxMTA1MDE4fDB8MXxzZWFyY2h8MXx8eWVsbG93JTIwUnViYmVyJTIwUmFpbiUyMEJvb3RzfGVufDB8MXx8fDE3OTIyMjgyMzJ8MA&ixlib=rb-4.1.0&w=600&h=750&fit=crop&auto=format&q=80",
+    "imageCredit": {
+      "name": "Sou Jest",
+      "url": "https://unsplash.com/@soujest?utm_source=ai_search_poc&utm_medium=referral"
+    }
+  }
+]
