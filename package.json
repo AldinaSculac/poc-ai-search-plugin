@@ -9,6 +9,9 @@
     "node": ">=20"
   },
   "scripts": {
+    "dev": "pnpm --filter demo-shop dev",
+    "build": "pnpm --filter ai-search-plugin build && pnpm --filter demo-shop build",
+    "typecheck": "pnpm -r typecheck",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
