@@ -1,0 +1,40 @@
+{
+  "name": "ai-search-plugin",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Turns a natural language prompt and a user profile into shop filters and a ranked product list.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "development": "./src/index.ts",
+      "default": "./dist/index.js"
+    },
+    "./react": {
+      "types": "./src/react/index.ts",
+      "development": "./src/react/index.ts",
+      "default": "./dist/react.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build && tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "react": "^19.2.8",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.0"
+  }
+}

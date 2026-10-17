@@ -38,6 +38,9 @@ importers:
 
   apps/demo-shop:
     dependencies:
+      ai-search-plugin:
+        specifier: workspace:^
+        version: link:../../packages/ai-search-plugin
       lucide-react:
         specifier: ^1.59.0
         version: 1.59.0(@types/react@19.3.0)(react@19.3.1)
@@ -63,6 +66,21 @@ importers:
       '@vitejs/plugin-react':
         specifier: ^6.1.1
         version: 6.1.2(vite@8.3.4(@types/node@24.19.2))
+      typescript:
+        specifier: ~6.0.3
+        version: 6.0.3
+      vite:
+        specifier: ^8.3.0
+        version: 8.3.4(@types/node@24.19.2)
+
+  packages/ai-search-plugin:
+    devDependencies:
+      '@types/react':
+        specifier: ^19.2.18
+        version: 19.3.0
+      react:
+        specifier: ^19.2.8
+        version: 19.3.1
       typescript:
         specifier: ~6.0.3
         version: 6.0.3

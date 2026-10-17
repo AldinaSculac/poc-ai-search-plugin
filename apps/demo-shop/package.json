@@ -11,6 +11,7 @@
     "images:fetch": "node --env-file=.env.local scripts/fetch-images.mjs"
   },
   "dependencies": {
+    "ai-search-plugin": "workspace:^",
     "lucide-react": "^1.59.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
