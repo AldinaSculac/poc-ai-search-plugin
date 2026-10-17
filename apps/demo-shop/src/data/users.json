@@ -1,0 +1,42 @@
+[
+  {
+    "id": "jerry",
+    "name": "Jerry Seinfeld",
+    "gender": "men",
+    "age": 36,
+    "weightKg": 73,
+    "heightCm": 180,
+    "shoeSizeEu": 43,
+    "preferredStyle": "sporty"
+  },
+  {
+    "id": "george",
+    "name": "George Costanza",
+    "gender": "men",
+    "age": 36,
+    "weightKg": 84,
+    "heightCm": 165,
+    "shoeSizeEu": 41,
+    "preferredStyle": "formal"
+  },
+  {
+    "id": "elaine",
+    "name": "Elaine Benes",
+    "gender": "women",
+    "age": 33,
+    "weightKg": 57,
+    "heightCm": 168,
+    "shoeSizeEu": 38,
+    "preferredStyle": "casual"
+  },
+  {
+    "id": "kramer",
+    "name": "Cosmo Kramer",
+    "gender": "men",
+    "age": 38,
+    "weightKg": 82,
+    "heightCm": 191,
+    "shoeSizeEu": 46,
+    "preferredStyle": "streetwear"
+  }
+]
