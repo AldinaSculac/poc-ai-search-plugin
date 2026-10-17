@@ -1,9 +1,11 @@
 import { createBrowserRouter, Navigate } from 'react-router';
 import { RouterProvider } from 'react-router/dom';
 import { Layout } from './components/Layout';
+import { ProtectedRoute } from './components/ProtectedRoute';
 import { CataloguePage } from './pages/CataloguePage';
 import { LoginPage } from './pages/LoginPage';
 import { ProfilePage } from './pages/ProfilePage';
+import { SessionProvider } from './session/SessionProvider';
 
 const router = createBrowserRouter([
   {
@@ -11,15 +13,24 @@ const router = createBrowserRouter([
     children: [
       { path: '/', element: <Navigate to="/catalogue" replace /> },
       { path: '/login', element: <LoginPage /> },
-      { path: '/catalogue', element: <CataloguePage /> },
-      { path: '/profile', element: <ProfilePage /> },
+      {
+        element: <ProtectedRoute />,
+        children: [
+          { path: '/catalogue', element: <CataloguePage /> },
+          { path: '/profile', element: <ProfilePage /> },
+        ],
+      },
       { path: '*', element: <Navigate to="/catalogue" replace /> },
     ],
   },
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <SessionProvider>
+      <RouterProvider router={router} />
+    </SessionProvider>
+  );
 }
 
 export default App;

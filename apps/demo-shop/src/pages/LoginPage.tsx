@@ -1,14 +1,14 @@
-import { useNavigate } from 'react-router';
+import { Navigate } from 'react-router';
 import { users } from '../data/users';
-import { saveSessionUserId } from '../session/sessionStorage';
+import { useSession } from '../session/useSession';
 import './LoginPage.css';
 
 export function LoginPage() {
-  const navigate = useNavigate();
+  const { user: currentUser, login } = useSession();
 
-  function login(userId: string) {
-    saveSessionUserId(userId);
-    navigate('/catalogue');
+  // Also handles the redirect right after login, since login() updates the session.
+  if (currentUser) {
+    return <Navigate to="/catalogue" replace />;
   }
 
   return (
