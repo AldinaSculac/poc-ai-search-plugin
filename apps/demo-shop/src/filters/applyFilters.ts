@@ -9,6 +9,11 @@ export const emptyFilters: Filters = {
   sizes: [],
 };
 
+/** True when any filter other than the text query is set. */
+export function hasActiveFilters(filters: Filters) {
+  return JSON.stringify({ ...filters, query: '' }) !== JSON.stringify(emptyFilters);
+}
+
 const matchesAny = (selected: string[], values: string[]) =>
   selected.length === 0 || selected.some((value) => values.includes(value));
 

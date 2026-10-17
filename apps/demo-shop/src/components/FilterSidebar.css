@@ -1,0 +1,149 @@
+.filters {
+  display: grid;
+  gap: 24px;
+  align-content: start;
+}
+
+.filters__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.filters__title {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.filters__clear {
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.filters__group {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0 0 24px;
+  border: none;
+  border-bottom: 1px solid var(--border);
+}
+
+.filters__legend {
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.filters__check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.filters__check input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.filters__segmented {
+  display: flex;
+  padding: 3px;
+  border-radius: 999px;
+  background: var(--surface);
+}
+
+.filters__segment {
+  flex: 1;
+  padding: 6px 0;
+  border: none;
+  border-radius: 999px;
+  background: none;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.filters__segment[aria-pressed='true'] {
+  background: var(--bg);
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.filters__range {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+.filters__range-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.filters__swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filters__swatch {
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.filters__swatch[aria-pressed='true'] {
+  box-shadow:
+    0 0 0 2px var(--bg),
+    0 0 0 4px var(--accent);
+}
+
+.filters__size-group + .filters__size-group {
+  margin-top: 8px;
+}
+
+.filters__sublabel {
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.filters__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filters__chip {
+  min-width: 40px;
+  padding: 5px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.filters__chip:hover {
+  border-color: var(--accent);
+}
+
+.filters__chip[aria-pressed='true'] {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
