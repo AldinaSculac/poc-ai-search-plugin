@@ -3,6 +3,7 @@
 // Usage: pnpm --filter demo-shop images:fetch (needs UNSPLASH_ACCESS_KEY in .env.local)
 // Products that already have an Unsplash image are skipped, so the script can
 // be rerun after the hourly rate limit (50 requests in demo mode) resets.
+// To replace weak matches, pass product ids: pnpm --filter demo-shop images:fetch p040 p053
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
@@ -17,10 +18,25 @@ if (!accessKey) {
   process.exit(1);
 }
 
+// Hand-picked queries for products where the generated query gave a weak photo.
+const QUERY_OVERRIDES = {
+  p025: 'man blue straight leg jeans outfit',
+  p032: 'woman grey t-shirt dress',
+  p040: 'man olive utility jacket',
+  p043: 'varsity jacket',
+  p053: 'black running shoes',
+  p055: 'suede chukka boots',
+};
+
+const refetchIds = new Set(process.argv.slice(2));
 const products = JSON.parse(await readFile(PRODUCTS_PATH, 'utf8'));
-const isFetched = (product) => product.image.startsWith('https://images.unsplash.com');
+const isFetched = (product) =>
+  product.image.startsWith('https://images.unsplash.com') && !refetchIds.has(product.id);
+// Includes the current photos of refetched products, so they get a different one.
 const usedPhotoIds = new Set(
-  products.filter(isFetched).map((product) => new URL(product.image).pathname),
+  products
+    .filter((product) => product.image.startsWith('https://'))
+    .map((product) => new URL(product.image).pathname),
 );
 
 // From most to least specific; later queries are only tried when earlier ones find nothing.
@@ -29,10 +45,11 @@ function buildQueries(product) {
   const shortName = product.name.split(' ').slice(-2).join(' ');
   const join = (...parts) => parts.filter(Boolean).join(' ');
   return [
+    QUERY_OVERRIDES[product.id],
     join(person, product.colors[0], product.name),
     join(person, product.name),
     join(person, shortName),
-  ];
+  ].filter(Boolean);
 }
 
 async function searchPhoto(query) {
@@ -90,5 +107,7 @@ await writeFile(
   PRODUCTS_PATH,
   await format(JSON.stringify(products), { ...prettierConfig, filepath }),
 );
-const missing = products.filter((product) => !isFetched(product)).length;
+const missing = products.filter(
+  (product) => !product.image.startsWith('https://images.unsplash.com'),
+).length;
 console.log(`Updated ${updated} products, ${missing} still without an Unsplash image.`);

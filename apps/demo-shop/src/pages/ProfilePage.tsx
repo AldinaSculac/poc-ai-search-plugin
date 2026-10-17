@@ -1,10 +1,9 @@
 import { Cake, Footprints, Info, Ruler, Sparkles, User, Weight } from 'lucide-react';
 import { useSession } from '../session/useSession';
+import { capitalize } from '../utils/format';
 import './ProfilePage.css';
 
 const genderLabel = { women: 'Women', men: 'Men' };
-
-const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
 
 export function ProfilePage() {
   const { user } = useSession();
