@@ -1,9 +1,9 @@
 .catalogue__header {
   display: flex;
-  align-items: baseline;
+  align-items: flex-end;
   justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 24px;
+  gap: 24px;
+  margin-bottom: 32px;
 }
 
 .catalogue__title {
@@ -11,7 +11,7 @@
 }
 
 .catalogue__count {
-  margin: 0;
+  margin: 4px 0 0;
   color: var(--muted);
   font-size: 0.9rem;
 }
@@ -52,6 +52,11 @@
 }
 
 @media (max-width: 760px) {
+  .catalogue__header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
   .catalogue__layout {
     grid-template-columns: 1fr;
   }

@@ -1,5 +1,5 @@
 import { Search, ShoppingBag } from 'lucide-react';
-import { NavLink, Outlet } from 'react-router';
+import { NavLink, Outlet, useNavigate } from 'react-router';
 import { useSession } from '../session/useSession';
 import { Footer } from './Footer';
 import { Logo } from './Logo';
@@ -8,6 +8,7 @@ import './Layout.css';
 
 export function Layout() {
   const { user } = useSession();
+  const navigate = useNavigate();
 
   return (
     <>
@@ -23,7 +24,12 @@ export function Layout() {
                 </NavLink>
               </nav>
               <div className="header__actions">
-                <button type="button" className="icon-button" aria-label="Search">
+                <button
+                  type="button"
+                  className="icon-button"
+                  aria-label="Search"
+                  onClick={() => navigate('/catalogue', { state: { focusSearch: true } })}
+                >
                   <Search size={20} />
                 </button>
                 <button type="button" className="icon-button" aria-label="Shopping bag">

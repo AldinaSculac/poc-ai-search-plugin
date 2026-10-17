@@ -1,0 +1,58 @@
+.search-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 360px;
+}
+
+.search-input__icon {
+  position: absolute;
+  left: 14px;
+  color: var(--muted);
+  pointer-events: none;
+}
+
+.search-input__field {
+  width: 100%;
+  padding: 10px 40px 10px 42px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--text);
+  outline: none;
+  transition:
+    border-color 0.15s,
+    background 0.15s;
+}
+
+.search-input__field:focus {
+  border-color: var(--accent);
+  background: var(--bg);
+}
+
+/* Use our own clear button instead of the browser's. */
+.search-input__field::-webkit-search-cancel-button {
+  appearance: none;
+}
+
+.search-input__clear {
+  position: absolute;
+  right: 8px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border: none;
+  border-radius: 50%;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.search-input__clear:hover {
+  background: var(--border);
+  color: var(--text);
+}
