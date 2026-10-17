@@ -31,6 +31,7 @@ export interface UserProfile {
   heightCm: number;
   shoeSizeEu: number;
   preferredStyle: Style;
+  avatar: string;
 }
 
 /**

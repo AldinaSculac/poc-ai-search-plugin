@@ -7,7 +7,8 @@
     "weightKg": 73,
     "heightCm": 180,
     "shoeSizeEu": 43,
-    "preferredStyle": "sporty"
+    "preferredStyle": "sporty",
+    "avatar": "/avatars/jerry.jpg"
   },
   {
     "id": "george",
@@ -17,7 +18,8 @@
     "weightKg": 84,
     "heightCm": 165,
     "shoeSizeEu": 41,
-    "preferredStyle": "formal"
+    "preferredStyle": "formal",
+    "avatar": "/avatars/george.jpg"
   },
   {
     "id": "elaine",
@@ -27,7 +29,8 @@
     "weightKg": 57,
     "heightCm": 168,
     "shoeSizeEu": 38,
-    "preferredStyle": "casual"
+    "preferredStyle": "casual",
+    "avatar": "/avatars/elaine.jpg"
   },
   {
     "id": "kramer",
@@ -37,6 +40,7 @@
     "weightKg": 82,
     "heightCm": 191,
     "shoeSizeEu": 46,
-    "preferredStyle": "streetwear"
+    "preferredStyle": "streetwear",
+    "avatar": "/avatars/kramer.jpg"
   }
 ]
