@@ -14,6 +14,11 @@
       "types": "./src/react/index.ts",
       "development": "./src/react/index.ts",
       "default": "./dist/react.js"
+    },
+    "./anthropic": {
+      "types": "./src/anthropic.ts",
+      "development": "./src/anthropic.ts",
+      "default": "./dist/anthropic.js"
     }
   },
   "files": [
@@ -36,5 +41,8 @@
     "react": "^19.2.8",
     "typescript": "~6.0.3",
     "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0"
   }
 }
