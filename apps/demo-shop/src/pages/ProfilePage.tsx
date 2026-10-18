@@ -1,4 +1,5 @@
 import { Cake, Footprints, Info, Ruler, Sparkles, User, Weight } from 'lucide-react';
+import { ApiKeySettings } from '../components/ApiKeySettings';
 import { useSession } from '../session/useSession';
 import { capitalize } from '../utils/format';
 import './ProfilePage.css';
@@ -45,6 +46,11 @@ export function ProfilePage() {
           <Info size={16} />
           Our AI search uses your fit profile to suggest the right sizes and styles for you.
         </p>
+      </section>
+
+      <section>
+        <h2 className="profile__section-title">AI search</h2>
+        <ApiKeySettings />
       </section>
     </div>
   );

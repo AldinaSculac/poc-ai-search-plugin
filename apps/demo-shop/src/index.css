@@ -76,6 +76,16 @@ button {
   opacity: 0.85;
 }
 
+.button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.button--ghost {
+  background: none;
+  color: var(--accent);
+}
+
 .icon-button {
   position: relative;
   display: grid;
