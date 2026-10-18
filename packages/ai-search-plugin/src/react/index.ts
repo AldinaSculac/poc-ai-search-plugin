@@ -1,1 +1,1 @@
-export { PLUGIN_NAME } from '../index';
+export type * from '../types';

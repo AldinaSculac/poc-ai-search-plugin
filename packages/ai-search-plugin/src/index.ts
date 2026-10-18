@@ -1,1 +1,2 @@
-export const PLUGIN_NAME = 'ai-search-plugin';
+export { defineFilterSchema } from './schema';
+export type * from './types';
