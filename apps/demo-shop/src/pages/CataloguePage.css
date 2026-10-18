@@ -1,3 +1,13 @@
+/* Themes the plugin's search box with the shop's own tokens. */
+.catalogue__ai {
+  --ai-search-accent: var(--accent);
+  --ai-search-accent-text: var(--accent-contrast);
+  --ai-search-border: var(--border);
+  --ai-search-font: var(--font-sans);
+  margin-bottom: 40px;
+  font-size: 1.05rem;
+}
+
 .catalogue__header {
   display: flex;
   align-items: flex-end;
