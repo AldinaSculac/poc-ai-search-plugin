@@ -130,7 +130,8 @@ export const aiSearchConfig: AiSearchConfig<typeof filterSchema, Product> = {
   catalog: { items: products, id: (product) => product.id, describe: describeProduct },
   user: currentShopper,
   instructions,
-  transport: anthropicTransport({ apiKey: getApiKey, model: MODEL }),
+  // The demo has no backend, so it calls Anthropic from the browser (see Production setup in PLAN.md).
+  transport: anthropicTransport({ apiKey: getApiKey, model: MODEL, allowBrowser: true }),
 };
 
 export const aiSearch = createAiSearch(aiSearchConfig);
