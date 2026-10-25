@@ -74,9 +74,10 @@ export function FilterSidebar({ filters, options, onChange, onClearAll }: Filter
         <input
           type="range"
           className="filters__range"
-          min={10}
+          min={options.minPrice}
           max={options.maxPrice}
-          step={10}
+          // Steps of 1 so the slider can show any price the AI search sets, e.g. 149.
+          step={1}
           value={priceValue}
           onChange={(event) => {
             const value = Number(event.target.value);

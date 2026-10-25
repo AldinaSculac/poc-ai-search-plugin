@@ -65,7 +65,12 @@ export function CataloguePage() {
         search={aiSearch}
         // The AI returns a complete Filters object, so it replaces the current filters.
         onResult={(result, prompt) => {
-          setFilters(result.filters);
+          const { priceMax } = result.filters;
+          // Whole euros, so the slider can show it ("under 149" can come back as 148.99).
+          setFilters({
+            ...result.filters,
+            priceMax: priceMax === null ? null : Math.ceil(priceMax),
+          });
           setRanking(result.rankedIds);
           setAiSearchState({ prompt, message: result.message });
         }}

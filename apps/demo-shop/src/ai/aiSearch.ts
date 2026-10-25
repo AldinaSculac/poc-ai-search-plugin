@@ -36,7 +36,8 @@ export const filterSchema = defineFilterSchema({
   },
   priceMax: {
     type: 'number',
-    min: 0,
+    // Same range as the price slider, so the slider can always show the AI's price.
+    min: options.minPrice,
     max: options.maxPrice,
     unit: 'EUR',
     description: 'Maximum price.',
