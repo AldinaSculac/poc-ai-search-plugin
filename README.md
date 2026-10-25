@@ -33,6 +33,19 @@ Open http://localhost:5173, pick a shopper, and type a request in the AI search 
 
 AI search needs an Anthropic API key: paste it on the profile page, or set `VITE_ANTHROPIC_API_KEY` in `apps/demo-shop/.env.local` (see the [demo shop README](apps/demo-shop/README.md#run-it)).
 
+## Try these prompts
+
+Log in as the shopper in the first column. Each prompt shows a different part of the plugin; results can vary a little between runs.
+
+| Shopper | Prompt                                                        | What it shows                                                                    |
+| ------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Kramer  | _a warm jacket for a winter city break under 150 euros_       | Category, price and size from one sentence; the price slider follows.            |
+| George  | _I have a job interview next week, what should I wear?_       | A whole outfit across categories, with clothing and shoe sizes from the profile. |
+| Jerry   | _a birthday gift for my girlfriend, she loves a casual style_ | Shopping for someone else: women's products, no size set.                        |
+| Elaine  | _going hiking in Scotland next week, it will rain a lot_      | Understands context: rain means waterproof boots and a rain jacket.              |
+| Jerry   | _everything I need for my first half marathon_                | Running shoes, tee, shorts and a jacket, ranked by what matters most.            |
+| George  | _trebam udobne cipele za cijeli dan na nogama_                | Other languages: a Croatian request gets matching shoes and a reply in Croatian. |
+
 ## Workspace scripts
 
 Run from the repository root:
