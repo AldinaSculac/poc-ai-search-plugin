@@ -119,10 +119,13 @@ const instructions = `
 - Sizes: when the shopper buys for themselves, set their sizes for the categories in the request:
   clothingSize for clothing, shoeSizeEu for shoes. Without a category in the request, set both.
   Do not set sizes when they buy for someone else, unless the request gives a size.
-- Style: there is no style filter. When the request names no style, rank the shopper's preferred
-  style first.
-- Ranking: list only products that match the filters you set, at most 12.
-- Message: address the shopper by first name and mention the size you picked, if any.
+- Ranking: order products by how well they fit the request: the item type, the purpose, and any
+  quality it asks for (e.g. warm, comfortable, formal). List only products that clearly fit and
+  match the filters you set, at most 12.
+- Style: there is no style filter. Use the shopper's preferred style only to order products that
+  fit the request equally well.
+- Message: address the shopper by first name and mention the size you picked, if any. Refer to
+  products by name, never by id.
 `.trim();
 
 export const aiSearchConfig: AiSearchConfig<typeof filterSchema, Product> = {
