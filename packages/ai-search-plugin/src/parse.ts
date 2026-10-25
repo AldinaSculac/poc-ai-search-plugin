@@ -21,15 +21,35 @@ export function parseResponse<S extends FilterSchema>(
   };
 }
 
+/** Parses the first complete JSON object in the reply, ignoring any text or code fence around it. */
 function readJson(text: string): unknown {
-  const body = text.replace(/```(?:json)?/gi, '');
-  const start = body.indexOf('{');
-  const end = body.lastIndexOf('}');
-  try {
-    return JSON.parse(body.slice(start, end + 1));
-  } catch {
-    throw new Error('The model reply is not valid JSON.');
+  for (let start = text.indexOf('{'); start !== -1; start = text.indexOf('{', start + 1)) {
+    const end = findObjectEnd(text, start);
+    // Never closed (e.g. a cut-off reply): stop rather than parse an object nested inside it.
+    if (end === -1) break;
+    try {
+      return JSON.parse(text.slice(start, end + 1));
+    } catch {
+      // Braces in plain text, not JSON: try the next `{`.
+    }
   }
+  throw new Error('The model reply is not valid JSON.');
+}
+
+/** Returns the index of the `}` that closes the `{` at `start`, or -1. Skips braces in strings. */
+function findObjectEnd(text: string, start: number): number {
+  let depth = 0;
+  let inString = false;
+  for (let index = start; index < text.length; index++) {
+    const char = text[index];
+    if (inString) {
+      if (char === '\\') index++;
+      else if (char === '"') inString = false;
+    } else if (char === '"') inString = true;
+    else if (char === '{') depth++;
+    else if (char === '}' && --depth === 0) return index;
+  }
+  return -1;
 }
 
 function toValue(value: unknown, definition: FilterDefinition): unknown {
