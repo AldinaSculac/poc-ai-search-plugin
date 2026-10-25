@@ -43,6 +43,9 @@ export function CataloguePage() {
 
   /** Ends the AI search: no ranking, no AI message, an empty search box. Filters stay. */
   function endAiSearch() {
+    // Without an active AI search there is nothing to end, and remounting the box would
+    // wipe a request the shopper typed but has not sent yet.
+    if (!aiSearchState) return;
     setRanking([]);
     setAiSearchState(null);
     setAiBoxKey((key) => key + 1);
@@ -79,7 +82,11 @@ export function CataloguePage() {
         <SearchInput
           ref={searchRef}
           value={filters.query}
-          onChange={(value) => setFilters({ ...filters, query: value })}
+          // A classic search takes over from the AI search; the AI's filters stay to refine.
+          onChange={(value) => {
+            setFilters({ ...filters, query: value });
+            endAiSearch();
+          }}
         />
       </div>
 
