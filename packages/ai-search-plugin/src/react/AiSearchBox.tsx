@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from 'react';
+import { useEffect, useRef, useState, type FormEvent } from 'react';
 import type { AiSearch, AiSearchResult, FilterSchema } from '../types';
 import { styles } from './styles';
 
@@ -23,20 +23,33 @@ export function AiSearchBox<S extends FilterSchema>({
   const [prompt, setPrompt] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  // Each search gets a number. Only the latest search of a mounted box may report back, so a
+  // search that finishes after the box was removed (e.g. the shop cleared it) is ignored.
+  const latestSearch = useRef(0);
+
+  useEffect(() => {
+    const searches = latestSearch;
+    return () => {
+      searches.current += 1;
+    };
+  }, []);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const text = prompt.trim();
     if (!text || loading) return;
 
+    const id = ++latestSearch.current;
+    const isLatest = () => id === latestSearch.current;
     setLoading(true);
     setError(null);
     try {
-      onResult(await search.search(text), text);
+      const result = await search.search(text);
+      if (isLatest()) onResult(result, text);
     } catch (cause) {
-      setError(cause instanceof Error ? cause.message : 'The search failed.');
+      if (isLatest()) setError(cause instanceof Error ? cause.message : 'The search failed.');
     } finally {
-      setLoading(false);
+      if (isLatest()) setLoading(false);
     }
   }
 
