@@ -23,15 +23,23 @@ export function anthropicTransport({
   model = 'claude-haiku-5-5',
   allowBrowser = false,
 }: AnthropicTransportOptions = {}): Transport {
+  // One client per key, so searches share its connection. A new key (e.g. saved in settings)
+  // gets a new client.
+  let cached: { key: string | null | undefined; client: Anthropic } | undefined;
+
   return async ({ system, prompt }) => {
     const key = typeof apiKey === 'function' ? apiKey() : apiKey;
     // A key source was given but has no key (e.g. nothing saved in settings yet).
     if (apiKey !== undefined && !key) throw new Error('Missing Anthropic API key.');
 
-    const client = new Anthropic({
-      ...(key && { apiKey: key }),
-      dangerouslyAllowBrowser: allowBrowser,
-    });
+    if (!cached || cached.key !== key) {
+      const client = new Anthropic({
+        ...(key && { apiKey: key }),
+        dangerouslyAllowBrowser: allowBrowser,
+      });
+      cached = { key, client };
+    }
+    const { client } = cached;
     let response;
     try {
       response = await client.beta.messages.create({
