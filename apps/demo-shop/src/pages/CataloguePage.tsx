@@ -41,12 +41,17 @@ export function CataloguePage() {
     }
   }, [location]);
 
-  /** Back to classic browsing: no filters, no ranking, no AI message. */
-  function clearAll() {
-    setFilters(emptyFilters);
+  /** Ends the AI search: no ranking, no AI message, an empty search box. Filters stay. */
+  function endAiSearch() {
     setRanking([]);
     setAiSearchState(null);
     setAiBoxKey((key) => key + 1);
+  }
+
+  /** Back to classic browsing: no filters and no AI search. */
+  function clearAll() {
+    setFilters(emptyFilters);
+    endAiSearch();
   }
 
   return (
@@ -90,7 +95,17 @@ export function CataloguePage() {
       )}
 
       <div className="catalogue__layout">
-        <FilterSidebar filters={filters} options={filterOptions} onChange={setFilters} />
+        <FilterSidebar
+          filters={filters}
+          options={filterOptions}
+          onChange={setFilters}
+          // Clearing the filters the AI set also ends the AI search, so its message never
+          // describes filters that are gone.
+          onClearAll={() => {
+            setFilters({ ...emptyFilters, query: filters.query });
+            endAiSearch();
+          }}
+        />
 
         {visibleProducts.length > 0 ? (
           <div className="catalogue__grid">

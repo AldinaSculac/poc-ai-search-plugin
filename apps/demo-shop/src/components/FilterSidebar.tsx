@@ -9,6 +9,8 @@ interface FilterSidebarProps {
   filters: Filters;
   options: FilterOptions;
   onChange: (filters: Filters) => void;
+  /** Replaces the default "Clear all", which clears every filter but keeps the text search. */
+  onClearAll?: () => void;
 }
 
 const genderOptions: { value: Gender | null; label: string }[] = [
@@ -20,8 +22,9 @@ const genderOptions: { value: Gender | null; label: string }[] = [
 const toggle = <T,>(values: T[], value: T) =>
   values.includes(value) ? values.filter((item) => item !== value) : [...values, value];
 
-export function FilterSidebar({ filters, options, onChange }: FilterSidebarProps) {
+export function FilterSidebar({ filters, options, onChange, onClearAll }: FilterSidebarProps) {
   const update = (patch: Partial<Filters>) => onChange({ ...filters, ...patch });
+  const clearAll = onClearAll ?? (() => onChange({ ...emptyFilters, query: filters.query }));
   const priceValue = filters.priceMax ?? options.maxPrice;
 
   return (
@@ -29,11 +32,7 @@ export function FilterSidebar({ filters, options, onChange }: FilterSidebarProps
       <div className="filters__header">
         <h2 className="filters__title">Filters</h2>
         {hasActiveFilters(filters) && (
-          <button
-            type="button"
-            className="filters__clear"
-            onClick={() => onChange({ ...emptyFilters, query: filters.query })}
-          >
+          <button type="button" className="filters__clear" onClick={clearAll}>
             Clear all
           </button>
         )}
